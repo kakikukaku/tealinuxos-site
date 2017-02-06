@@ -1,11 +1,11 @@
-title: Hexo
-subtitle: "A fast, simple & powerful blog framework powered by Node.js."
-description: "Hexo is a fast, simple & powerful blog framework powered by Node.js."
-author: Tommy Chen
+title: TealinuxOS
+subtitle: "Nikmatnya Sebuah Racikan"
+description: "Operating System for Your Developing Environment"
+author: DOSCOM
 language: en
 timezone: UTC
-url: https://hexo.io
-root: /
+url: https://wkwksama.github.io/
+root: /web-tealinuxos/
 permalink: news/:year/:month/:day/:title/
 archive_dir: news
 code_dir: downloads/code
@@ -19,7 +19,7 @@ per_page: 0
 theme: navy
 deploy:
   type: git
-  repo: git@github.com:hexojs/hexojs.github.io.git
+  repo: https://github.com/wkwksama/web-tealinuxos.git
 
 disqus_shortname: hexojs
 google_analytics: UA-4910098-10

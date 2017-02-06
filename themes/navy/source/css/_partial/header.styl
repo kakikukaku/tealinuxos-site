@@ -3,10 +3,12 @@ header-padding-max = 30px
 logo-size = 50px
 
 #header
+  background: #fff
   position: relative
   padding: header-padding-normal 0
   @media print
     display: none
+  box-shadow: 0 2px 2px 0 grey;
 
 #header-inner
   display: flex
@@ -20,7 +22,7 @@ logo-size = 50px
 
 #logo
   hide-text()
-  background: url("/logo.svg")
+  background: url("/logo.png")
   width: logo-size
   height: logo-size
   background-size: @width @height
@@ -33,8 +35,10 @@ logo-size = 50px
   @media mq-normal
     display: block
 
+
 .main-nav-link
-  color: #fff
+  // color: #fff
+  color: #000
   text-decoration: none
   line-height: logo-size
   opacity: 0.7
@@ -55,7 +59,8 @@ logo-size = 50px
     display: inline-block
 
 #search-input-icon
-  color: #fff
+  // color: #fff
+  color: #000
   padding-right: 0.5em
   display: inline-block
   opacity: 0.7
@@ -64,7 +69,8 @@ logo-size = 50px
   background: none
   font-size: inherit
   font-family: font-title
-  color: #fff
+  // color: #fff
+  color: #000
   outline: none
   -webkit-appearance: none
 
@@ -75,7 +81,7 @@ logo-size = 50px
     display: block
 
 #lang-select-label
-  color: #fff
+  color: #000
   opacity: 0.7
   font-family: font-title
   line-height: logo-size

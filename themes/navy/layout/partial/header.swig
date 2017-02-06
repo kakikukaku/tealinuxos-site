@@ -1,4 +1,4 @@
-<header id="header" class="wrapper">
+<header id="header">
   <div id="header-inner" class="inner">
     <h1 id="logo-wrap">
       <a href="{{ url_for_lang('') }}" id="logo">Hexo</a>
