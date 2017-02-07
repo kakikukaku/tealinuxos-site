@@ -58,3 +58,5 @@ Method | Description
 `renderSync` | Render a file synchronously
 
 [util.Pattern]: https://github.com/hexojs/hexo-util#patternrule
+
+edited by kakikukaku
