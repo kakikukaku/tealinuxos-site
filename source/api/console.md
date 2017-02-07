@@ -67,3 +67,5 @@ hexo.extend.console.register('config', 'Display configuration', function(args){
 ```
 
 [Minimist]: https://github.com/substack/minimist
+
+edit lagi by kakikukaku
